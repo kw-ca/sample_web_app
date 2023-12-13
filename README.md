@@ -32,7 +32,12 @@ echo "export PIPENV_VENV_IN_PROJECT=true" >> ~/.bash_profile
 ```
 
 ## 実行方法
+- 開発環境
 ```bash
 cd /path/to/sample_web_app/apps/minimal_app
 FLASK_APP=app.py FLASK_ENV=development flask run -p 3000
+```
+- 本番環境
+```bash
+waitress-serve --port 3000 --call "app:create_app"
 ```

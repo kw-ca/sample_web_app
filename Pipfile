@@ -9,6 +9,7 @@ python-dotenv = "*"
 email-validator = "*"
 flask-debugtoolbar = "*"
 flask-mail = "*"
+waitress = "*"
 
 [dev-packages]
 
