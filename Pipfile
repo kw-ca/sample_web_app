@@ -5,6 +5,10 @@ name = "pypi"
 
 [packages]
 flask = "*"
+python-dotenv = "*"
+email-validator = "*"
+flask-debugtoolbar = "*"
+flask-mail = "*"
 
 [dev-packages]
 

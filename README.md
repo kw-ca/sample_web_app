@@ -1,6 +1,11 @@
 # sample web app
 
 ## 環境構築
+### AL2環境
+```bash
+yum install gcc zlib-devel bzip2 bzip2-devel readline-devel sqlite sqlite-devel openssl-devel tk-devel libffi-devel patch
+```
+
 ### python
 - install pyenv
 ```bash
@@ -29,5 +34,5 @@ echo "export PIPENV_VENV_IN_PROJECT=true" >> ~/.bash_profile
 ## 実行方法
 ```bash
 cd /path/to/sample_web_app/apps/minimal_app
-FLASK_APP=app.py FLASK_ENV=development flask run
+FLASK_APP=app.py FLASK_ENV=development flask run -p 3000
 ```
