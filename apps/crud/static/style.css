@@ -1,0 +1,14 @@
+.error_msg {
+    color: red;
+}
+
+table {
+    /* 隣接するボーダーを重ねて１本にして表示する */
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}

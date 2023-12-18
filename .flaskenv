@@ -1,4 +1,4 @@
-FLASK_APP = "apps.minimal_app.app.py"
+FLASK_APP = "apps.app:create_app"
 FLASK_ENV = "development"
 FLASK_DEBUG = 1
 
